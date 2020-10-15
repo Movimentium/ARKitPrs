@@ -7,27 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1576672538A534000926C7 /* ARBasicLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1576662538A534000926C7 /* ARBasicLaunchScreen.storyboard */; };
+		0C1576692538A55F000926C7 /* ARBasicMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1576682538A55F000926C7 /* ARBasicMedia.xcassets */; };
+		0C15766B2538A5B4000926C7 /* ARBasic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C15766A2538A5B4000926C7 /* ARBasic.storyboard */; };
 		0C57C14C2538A2E00018D116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57C14B2538A2E00018D116 /* AppDelegate.swift */; };
 		0C57C14E2538A2E00018D116 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57C14D2538A2E00018D116 /* SceneDelegate.swift */; };
-		0C57C1502538A2E00018D116 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57C14F2538A2E00018D116 /* ViewController.swift */; };
-		0C57C1532538A2E00018D116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C57C1512538A2E00018D116 /* Main.storyboard */; };
-		0C57C1552538A2E10018D116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C57C1542538A2E10018D116 /* Assets.xcassets */; };
-		0C57C1582538A2E10018D116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C57C1562538A2E10018D116 /* LaunchScreen.storyboard */; };
+		0C57C1622538A30E0018D116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57C14B2538A2E00018D116 /* AppDelegate.swift */; };
+		0C57C1632538A30E0018D116 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57C14D2538A2E00018D116 /* SceneDelegate.swift */; };
+		0C57C16F2538A40E0018D116 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C57C1592538A2E10018D116 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C1576662538A534000926C7 /* ARBasicLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ARBasicLaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C1576682538A55F000926C7 /* ARBasicMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ARBasicMedia.xcassets; sourceTree = "<group>"; };
+		0C15766A2538A5B4000926C7 /* ARBasic.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ARBasic.storyboard; sourceTree = "<group>"; };
 		0C57C1482538A2E00018D116 /* ARKitPrs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitPrs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C57C14B2538A2E00018D116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C57C14D2538A2E00018D116 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0C57C14F2538A2E00018D116 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0C57C1522538A2E00018D116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0C57C1542538A2E10018D116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C57C1572538A2E10018D116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C57C1592538A2E10018D116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C57C16C2538A30E0018D116 /* ARKitBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C57C16D2538A30E0018D116 /* ARKitBasic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ARKitBasic-Info.plist"; path = "/Users/m/Documents/z_ARKit/ARKit Projects/ARKitPrs/ARKitBasic-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0C57C1452538A2E00018D116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C57C1642538A30E0018D116 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				0C57C1482538A2E00018D116 /* ARKitPrs.app */,
+				0C57C16C2538A30E0018D116 /* ARKitBasic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +69,21 @@
 			children = (
 				0C57C14B2538A2E00018D116 /* AppDelegate.swift */,
 				0C57C14D2538A2E00018D116 /* SceneDelegate.swift */,
-				0C57C14F2538A2E00018D116 /* ViewController.swift */,
-				0C57C1512538A2E00018D116 /* Main.storyboard */,
-				0C57C1542538A2E10018D116 /* Assets.xcassets */,
-				0C57C1562538A2E10018D116 /* LaunchScreen.storyboard */,
 				0C57C1592538A2E10018D116 /* Info.plist */,
+				0C57C16E2538A3D70018D116 /* ARKitBasic */,
 			);
 			path = ARKitPrs;
+			sourceTree = "<group>";
+		};
+		0C57C16E2538A3D70018D116 /* ARKitBasic */ = {
+			isa = PBXGroup;
+			children = (
+				0C57C16D2538A30E0018D116 /* ARKitBasic-Info.plist */,
+				0C15766A2538A5B4000926C7 /* ARBasic.storyboard */,
+				0C1576662538A534000926C7 /* ARBasicLaunchScreen.storyboard */,
+				0C1576682538A55F000926C7 /* ARBasicMedia.xcassets */,
+			);
+			path = ARKitBasic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +104,23 @@
 			name = ARKitPrs;
 			productName = ARKitPrs;
 			productReference = 0C57C1482538A2E00018D116 /* ARKitPrs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C57C15F2538A30E0018D116 /* ARKitBasic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C57C1692538A30E0018D116 /* Build configuration list for PBXNativeTarget "ARKitBasic" */;
+			buildPhases = (
+				0C57C1602538A30E0018D116 /* Sources */,
+				0C57C1642538A30E0018D116 /* Frameworks */,
+				0C57C1652538A30E0018D116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKitBasic;
+			productName = ARKitPrs;
+			productReference = 0C57C16C2538A30E0018D116 /* ARKitBasic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,6 +152,7 @@
 			projectRoot = "";
 			targets = (
 				0C57C1472538A2E00018D116 /* ARKitPrs */,
+				0C57C15F2538A30E0018D116 /* ARKitBasic */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +162,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C57C1582538A2E10018D116 /* LaunchScreen.storyboard in Resources */,
-				0C57C1552538A2E10018D116 /* Assets.xcassets in Resources */,
-				0C57C1532538A2E00018D116 /* Main.storyboard in Resources */,
+				0C57C16F2538A40E0018D116 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C57C1652538A30E0018D116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1576692538A55F000926C7 /* ARBasicMedia.xcassets in Resources */,
+				0C15766B2538A5B4000926C7 /* ARBasic.storyboard in Resources */,
+				0C1576672538A534000926C7 /* ARBasicLaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +183,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C57C1502538A2E00018D116 /* ViewController.swift in Sources */,
 				0C57C14C2538A2E00018D116 /* AppDelegate.swift in Sources */,
 				0C57C14E2538A2E00018D116 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C57C1602538A30E0018D116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C57C1622538A30E0018D116 /* AppDelegate.swift in Sources */,
+				0C57C1632538A30E0018D116 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0C57C1512538A2E00018D116 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C57C1522538A2E00018D116 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0C57C1562538A2E10018D116 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C57C1572538A2E10018D116 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0C57C15A2538A2E10018D116 /* Debug */ = {
@@ -316,6 +350,42 @@
 			};
 			name = Release;
 		};
+		0C57C16A2538A30E0018D116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9BV75HGP3;
+				INFOPLIST_FILE = "ARKitBasic-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguel.gallego.ARKitPrs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C57C16B2538A30E0018D116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9BV75HGP3;
+				INFOPLIST_FILE = "ARKitBasic-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = miguel.gallego.ARKitPrs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +403,15 @@
 			buildConfigurations = (
 				0C57C15D2538A2E10018D116 /* Debug */,
 				0C57C15E2538A2E10018D116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C57C1692538A30E0018D116 /* Build configuration list for PBXNativeTarget "ARKitBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C57C16A2538A30E0018D116 /* Debug */,
+				0C57C16B2538A30E0018D116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
