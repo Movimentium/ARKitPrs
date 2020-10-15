@@ -20,12 +20,14 @@ class ARBasicVC: UIViewController {
 
         vwScene.session.run(arConfig)
         vwScene.debugOptions = [.showFeaturePoints, .showWorldOrigin]
+        vwScene.autoenablesDefaultLighting = true  // Luz por defecto
     }
     
     private func add3Dobject() {
         let node = SCNNode()
-        node.geometry = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.03)
-        node.geometry?.firstMaterial?.diffuse.contents = UIColor.red
+        node.geometry = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.02)
+        node.geometry?.firstMaterial?.diffuse.contents = UIColor.red // Color de la caja
+        node.geometry?.firstMaterial?.specular.contents = UIColor.white // Color con el que refleja la luz
         node.position = SCNVector3(0, 0, -0.4)
         vwScene.scene.rootNode.addChildNode(node)
     }
