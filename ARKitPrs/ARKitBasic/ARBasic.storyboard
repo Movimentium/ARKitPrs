@@ -7,16 +7,55 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--BasicVC-->
         <scene sceneID="zb7-4z-UP8">
             <objects>
-                <viewController id="nkr-MR-rUy" sceneMemberID="viewController">
+                <viewController id="nkr-MR-rUy" customClass="ARBasicVC" customModule="ARKitBasic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u0n-PE-Hd7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gC5-O7-OyC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                            </arscnView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="1F3-4E-ev4">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPG-ND-VeW">
+                                        <rect key="frame" x="0.0" y="0.0" width="184" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="pYz-lY-AYM"/>
+                                        </constraints>
+                                        <state key="normal" title="Añadir objeto"/>
+                                        <connections>
+                                            <action selector="onBtnAddObj:" destination="nkr-MR-rUy" eventType="touchUpInside" id="wt9-U8-cPk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qn5-SF-ODf">
+                                        <rect key="frame" x="191" y="0.0" width="184" height="50"/>
+                                        <state key="normal" title="Resetear sesión"/>
+                                        <connections>
+                                            <action selector="onBtnResetSession:" destination="nkr-MR-rUy" eventType="touchUpInside" id="L1d-zq-1Um"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ttD-Ni-gg3" firstAttribute="bottom" secondItem="gC5-O7-OyC" secondAttribute="bottom" constant="50" id="0dK-Do-kmG"/>
+                            <constraint firstItem="gC5-O7-OyC" firstAttribute="leading" secondItem="u0n-PE-Hd7" secondAttribute="leading" id="2tf-r7-fAX"/>
+                            <constraint firstItem="ttD-Ni-gg3" firstAttribute="bottom" secondItem="1F3-4E-ev4" secondAttribute="bottom" id="9Ta-ho-xbx"/>
+                            <constraint firstItem="1F3-4E-ev4" firstAttribute="leading" secondItem="ttD-Ni-gg3" secondAttribute="leading" id="D4R-l1-eEo"/>
+                            <constraint firstItem="gC5-O7-OyC" firstAttribute="top" secondItem="ttD-Ni-gg3" secondAttribute="top" id="HeB-RQ-X6P"/>
+                            <constraint firstItem="ttD-Ni-gg3" firstAttribute="trailing" secondItem="gC5-O7-OyC" secondAttribute="trailing" id="qda-QH-ecf"/>
+                            <constraint firstItem="ttD-Ni-gg3" firstAttribute="trailing" secondItem="1F3-4E-ev4" secondAttribute="trailing" id="y0o-hA-Bex"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ttD-Ni-gg3"/>
                     </view>
+                    <connections>
+                        <outlet property="vwScene" destination="gC5-O7-OyC" id="7j0-j9-dKS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oaz-OT-a7h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

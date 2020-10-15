@@ -15,6 +15,7 @@
 		0C57C1622538A30E0018D116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57C14B2538A2E00018D116 /* AppDelegate.swift */; };
 		0C57C1632538A30E0018D116 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57C14D2538A2E00018D116 /* SceneDelegate.swift */; };
 		0C57C16F2538A40E0018D116 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C57C1592538A2E10018D116 /* Info.plist */; };
+		0CFF284E2538AB5000035D31 /* ARBasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFF284D2538AB5000035D31 /* ARBasicVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		0C57C1592538A2E10018D116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C57C16C2538A30E0018D116 /* ARKitBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C57C16D2538A30E0018D116 /* ARKitBasic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ARKitBasic-Info.plist"; path = "/Users/m/Documents/z_ARKit/ARKit Projects/ARKitPrs/ARKitBasic-Info.plist"; sourceTree = "<absolute>"; };
+		0CFF284D2538AB5000035D31 /* ARBasicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBasicVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +80,11 @@
 		0C57C16E2538A3D70018D116 /* ARKitBasic */ = {
 			isa = PBXGroup;
 			children = (
-				0C57C16D2538A30E0018D116 /* ARKitBasic-Info.plist */,
 				0C15766A2538A5B4000926C7 /* ARBasic.storyboard */,
+				0CFF284D2538AB5000035D31 /* ARBasicVC.swift */,
 				0C1576662538A534000926C7 /* ARBasicLaunchScreen.storyboard */,
 				0C1576682538A55F000926C7 /* ARBasicMedia.xcassets */,
+				0C57C16D2538A30E0018D116 /* ARKitBasic-Info.plist */,
 			);
 			path = ARKitBasic;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CFF284E2538AB5000035D31 /* ARBasicVC.swift in Sources */,
 				0C57C1622538A30E0018D116 /* AppDelegate.swift in Sources */,
 				0C57C1632538A30E0018D116 /* SceneDelegate.swift in Sources */,
 			);
